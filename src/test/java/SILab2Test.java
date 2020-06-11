@@ -17,9 +17,12 @@ class SILab2Test {
     Angle four= new Angle(10,10,10);
     Angle five= new Angle(360,0,0);
     
-   // int[] result = new int[]{ 1296000,36610};
+
 
     private List<Angle> createList(Angle... elems){
+        return new ArrayList<>(Arrays.asList(elems));
+    }
+    private List<Integer> createListInt(Integer... elems){
         return new ArrayList<>(Arrays.asList(elems));
     }
 
@@ -39,9 +42,9 @@ class SILab2Test {
         ex= assertThrows(RuntimeException.class, () -> SILab2.function(createList(seven)));
         assertTrue(ex.getMessage().contains("The angle is smaller or greater then the minimum"));
 
-     //  assertEquals(result[0], SILab2.function(createList(five)));
+      assertEquals(createListInt(1296000), SILab2.function(createList(five)));
 
-      // assertEquals(result[1], SILab2.function(createList(four)));
+      assertEquals(createListInt(36610), SILab2.function(createList(four)));
 
     }
 
