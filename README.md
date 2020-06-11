@@ -19,9 +19,10 @@
 5. angleList=(360 0' 0") -> Nodes 1,2.1,2.2,2.3,3,4,10,11,12,15,16,17
 6. angleList=(360 20' 50") -> Nodes 1,2.1,2.2,3,4,10,11,13,17
 7. angleList=(400 0' 20") -> Nodes 1,2.1,2.2,3,4,14,17
+<img src="EveryStatement.png" height="300px">
 во случаевите 1,2,3,6,7 ќе биде фрлен исклучок.
 
 ## Тест случаи според критериумот Every Branch
-
+<img src="EveryBranch.png" height="300px">
 
 ## Објаснување на напишаните unit tests
