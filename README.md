@@ -26,3 +26,6 @@
 <img src="EveryBranch.png" height="300px">
 
 ## Објаснување на напишаните unit tests
+
+<img src="Test1.png" height="300px">
+<img src="Test2.png" height="400px">
