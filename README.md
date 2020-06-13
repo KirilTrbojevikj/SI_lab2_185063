@@ -26,6 +26,7 @@
 <img src="EveryBranch.png" height="300px">
 
 ## Објаснување на напишаните unit tests
+За тестирање на Every Statment и Every Branch методите ги употребив истите тест случаи.
 
 <img src="Test1.png" height="300px">
-<img src="Test2.png" height="400px">
+<img src="Test2.png" height="300px">
